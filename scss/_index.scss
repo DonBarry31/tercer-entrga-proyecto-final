@@ -1,0 +1,30 @@
+$palette: (
+    'primary':rgb(15,26,32),
+    'secondary': rgb(227,218,201),
+    'gris': rgb(57, 66, 70),
+    'metal': rgb(37, 47, 52)
+);
+@mixin sizes($width, $height){
+    width: $width;
+    height: $height;
+}
+nav{
+    animation-name: nav;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    a{
+        #logo-gordo{
+            border-radius: 80%;
+            @include sizes(45%, 100%);
+        }
+    }
+}
+footer{
+    border-top: solid 1px rgb(22, 22, 22, 0.8);
+    margin-top: 1%;
+}
+
+.trago2{
+    @extend .pizza;
+}

@@ -1,0 +1,34 @@
+nav {
+  -webkit-animation-name: nav;
+          animation-name: nav;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+nav a #logo-gordo {
+  border-radius: 80%;
+  width: 45%;
+  height: 100%;
+}
+
+footer {
+  border-top: solid 1px rgba(22, 22, 22, 0.8);
+  margin-top: 1%;
+}
+
+.form {
+  padding: 1%;
+}
+
+.contactanos {
+  margin-top: 3%;
+}
+
+.pizza, .fotoG, .fotoC, .trago2 {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}/*# sourceMappingURL=styles.css.map */
